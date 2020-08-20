@@ -1,0 +1,239 @@
+/* -----------------------------------------------------------navbar-start----------------------------------------------------- */
+
+.navbar-light .navbar-brand {
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#name {
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2.8px;
+}
+
+#name:hover {
+    cursor: pointer;
+    font-weight: 1000;
+    letter-spacing: 3.5px;
+    margin: 0 5px;
+    transform: scale(1.1);
+    transition: 0.5s;
+    text-shadow: 1px black;
+}
+
+.logo {
+    width: 60px;
+    padding-right: 10px;
+}
+
+.nav-link:hover {
+    color: #2b580c;
+}
+
+.nav-item:hover {
+    color: #2b580c;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    font-weight: 450;
+    letter-spacing: 1px;
+    padding: 0.2rem 1rem;
+    color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
+.nav-link.active,
+.nav-link:focus {
+    color: #fff;
+    transition: 0.1s;
+}
+
+.nav-link:hover {
+    font-weight: 500;
+    color: #f39325;
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #315f13 !important;
+}
+.smart-scroll{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .scrolled-down{
+     transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+     transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
+
+/* -----------------------------------------------------------navbar-end----------------------------------------------------- */
+
+
+/*________________________________________________________ footer-start___________________________________________________________________- */
+
+#footer {
+    background: #fff;
+    padding-top: 500px;
+    color: #f3a64e;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+#footer h1 {
+    color: black;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+#footer .footer.top {
+    background: #040919;
+    padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+    font-size: 26px;
+    margin: 0 0 2px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+
+#footer .footer-top .footer-info p {
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+#footer .footer-top .social-links a {
+    display: inline-block;
+    background: #000000;
+    line-height: 1;
+    padding: 10px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+    background: #e7902b;
+    color: #fff;
+}
+
+#footer .footer-top h4 {
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #54e997;
+}
+
+#footer .footer-top .footer-links ul {
+    list-style: name;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+    list-style: name;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+    border-bottom: 1px solid #262c44;
+    padding: 10px 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+    color: #eb9b40;
+}
+
+#footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p {
+    line-height: 26px;
+}
+
+#footer .copyright {
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding-top: 30px;
+    color: #fff;
+}
+
+#footer .credits {
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+#footer .credits a {
+    text-decoration: none;
+    color: #10c260;
+    border-bottom: 0.1px solid #fdfdfd;
+}
+
+
+/*________________________________________________________ footer-end___________________________________________________________________- */
+
+
+
+
+
+
+/*------------------------------------------card----------------------------------------------*/
+
+.card a:hover{
+    background:#315f13;
+    outline: none;
+    border-color: #315f13;
+    transition: all 0.1s linear;
+    }
+    
+    .card img:hover{
+        transform: scale(1.05);
+    transition: all 0.3s linear;
+    }
+.card img{
+    height: 450px;
+}
+
+.head-img img{
+    height: 120px;
+    width: 600px;
+}
+/*------------------------------------------card----------------------------------------------*/
